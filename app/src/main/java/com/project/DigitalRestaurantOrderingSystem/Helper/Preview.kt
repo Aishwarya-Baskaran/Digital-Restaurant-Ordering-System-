@@ -1,0 +1,17 @@
+package com.project.DigitalRestaurantOrderingSystem.Helper
+
+import com.project.DigitalRestaurantOrderingSystem.Domain.FoodModel
+
+val previewFood= FoodModel(
+    BestFood = true,
+    CategoryId="",
+    Description = "test",
+    Id=1,
+    ImagePath="",
+    Price=12.99,
+    Star = 4.7,
+    TimeValue=25,
+    Title = "Cheese Pizza",
+    Calorie = 980,
+    numberInCart = 1
+)
